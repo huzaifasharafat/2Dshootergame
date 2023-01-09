@@ -118,7 +118,7 @@ class bullet(pygame.sprite.Sprite):
         self.rect.y = 10  # go to y
     def control(self,x,y):
         self.rect.x = x
-        self.rect.y = y
+        self.rect.y = y + 15
         self.movex = -5
 
     def update(self):
